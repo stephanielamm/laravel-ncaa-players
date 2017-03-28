@@ -15,7 +15,7 @@ Route::get('/', function () {
   //
 });
 
-Route::get('games', function () {
+Route::get('players', function () {
   $myArray = [
     [
       'id' => ''
