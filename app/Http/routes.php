@@ -18,7 +18,7 @@ Route::get('/', function () {
 Route::get('players', function () {
   $myArray = [
     [
-      'id' => ''
+      'id' => '0'
       'first' => ''
       'last' => ''
       'gamesPlayed' => '0'
