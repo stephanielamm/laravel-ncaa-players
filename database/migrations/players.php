@@ -23,10 +23,9 @@ class CreatePlayersTable extends Migration
       $table->integer('spg');->default('0';)
       $table->integer('bpg');->default('0';)
       $table->integer('tpg');->default('0';)
-      $table->float('fgPercent');->default('0.00';)
-      $table->float('ftPercent');->default('0.00';)
-      $table->float('tpPercent');->default('0.00';)
-//    everything is a whole number except for the last three, search float in documentation
+      $table->float('fgPercent', 8, 2);->default('0.00';)
+      $table->float('ftPercent', 8, 2);->default('0.00';)
+      $table->float('tpPercent', 8, 2);->default('0.00';)
       $table->timestamps();
     });
     }
