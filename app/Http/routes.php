@@ -21,17 +21,17 @@ Route::get('games', function () {
       'id' => ''
       'first' => ''
       'last' => ''
-      'gamesPlayed' => ''
-      'avgMinutes' => ''
-      'ppg' => ''
-      'rpg' => ''
-      'apg' => ''
-      'spg' => ''
-      'bpg' => ''
-      'tpg' => ''
-    ],
-    [
-      ''
+      'gamesPlayed' => '0'
+      'avgMinutes' => '0'
+      'ppg' => '0'
+      'rpg' => '0'
+      'apg' => '0'
+      'spg' => '0'
+      'bpg' => '0'
+      'tpg' => '0'
+      'fgPercent' => '0.00'
+      'ftPercent' => '0.00'
+      'tpPercent' => '0.00'
     ]
   ];
   return Response::json($myArray);
